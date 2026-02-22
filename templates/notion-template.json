@@ -1,0 +1,254 @@
+{
+  "children": [
+    {
+      "object": "block",
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [{ "type": "text", "text": { "content": "🧭 Trip Summary" } }]
+      }
+    },
+    {
+      "object": "block",
+      "type": "callout",
+      "callout": {
+        "rich_text": [{ "type": "text", "text": { "content": "Quick snapshot for destination, dates, and trip vibe." } }],
+        "icon": { "emoji": "🧭" },
+        "color": "blue_background"
+      }
+    },
+    {
+      "object": "block",
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [{ "type": "text", "text": { "content": "Destination: <Destination>" } }]
+      }
+    },
+    {
+      "object": "block",
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [{ "type": "text", "text": { "content": "Dates: <YYYY-MM-DD to YYYY-MM-DD>" } }]
+      }
+    },
+    {
+      "object": "block",
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [{ "type": "text", "text": { "content": "Travelers: <count + adults/children>" } }]
+      }
+    },
+    {
+      "object": "block",
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [{ "type": "text", "text": { "content": "Style: <relaxed / balanced / packed>" } }]
+      }
+    },
+    {
+      "object": "block",
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [{ "type": "text", "text": { "content": "Base area: <accommodation neighborhood for context>" } }]
+      }
+    },
+    {
+      "object": "block",
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [{ "type": "text", "text": { "content": "Trip intent: <what this trip should feel like>" } }]
+      }
+    },
+    { "object": "block", "type": "divider", "divider": {} },
+    {
+      "object": "block",
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [{ "type": "text", "text": { "content": "✅ Book Before" } }]
+      }
+    },
+    {
+      "object": "block",
+      "type": "to_do",
+      "to_do": {
+        "rich_text": [{ "type": "text", "text": { "content": "🎟️ <Reservation/ticket item 1>" } }],
+        "checked": false
+      }
+    },
+    {
+      "object": "block",
+      "type": "to_do",
+      "to_do": {
+        "rich_text": [{ "type": "text", "text": { "content": "🍽️ <Reservation/ticket item 2>" } }],
+        "checked": false
+      }
+    },
+    { "object": "block", "type": "divider", "divider": {} },
+    {
+      "object": "block",
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [{ "type": "text", "text": { "content": "🗓️ Day-by-Day" } }]
+      }
+    },
+    {
+      "object": "block",
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [{ "type": "text", "text": { "content": "Place format: <place> - ⭐4.8 (321) - <Google Maps link>; if count missing use ⭐4.8." } }]
+      }
+    },
+    {
+      "object": "block",
+      "type": "toggle",
+      "toggle": {
+        "rich_text": [{ "type": "text", "text": { "content": "Day 1 - <date> - <area focus>" } }],
+        "children": [
+          {
+            "object": "block",
+            "type": "callout",
+            "callout": {
+              "rich_text": [{ "type": "text", "text": { "content": "Intent: <slow start / exploration-heavy / recovery day>" } }],
+              "icon": { "emoji": "🎯" },
+              "color": "gray_background"
+            }
+          },
+          {
+            "object": "block",
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [{ "type": "text", "text": { "content": "🌅 Morning: <anchor/place> - ⭐4.8 (321) - <Google Maps link>" } }]
+            }
+          },
+          {
+            "object": "block",
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [{ "type": "text", "text": { "content": "☀️ Afternoon: <anchor/place> - ⭐4.8 (321) - <Google Maps link>" } }]
+            }
+          },
+          {
+            "object": "block",
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [{ "type": "text", "text": { "content": "🌙 Evening: <anchor/place> - ⭐4.8 (321) - <Google Maps link>" } }]
+            }
+          },
+          {
+            "object": "block",
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [{ "type": "text", "text": { "content": "🍽️ Lunch: <place> - ⭐4.8 (321) - <Google Maps link>" } }]
+            }
+          },
+          {
+            "object": "block",
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [{ "type": "text", "text": { "content": "🍷 Dinner: <place> - ⭐4.8 (321) - <Google Maps link>" } }]
+            }
+          },
+          {
+            "object": "block",
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [{ "type": "text", "text": { "content": "☕ Cafe: <place> - ⭐4.8 (321) - <Google Maps link>" } }]
+            }
+          },
+          {
+            "object": "block",
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [{ "type": "text", "text": { "content": "🔁 Backup swap: <alternative place> - ⭐4.8 (321) - <Google Maps link>" } }]
+            }
+          },
+          {
+            "object": "block",
+            "type": "callout",
+            "callout": {
+              "rich_text": [{ "type": "text", "text": { "content": "🚶 Feasibility note: <kept to short walks/transit between anchors>" } }],
+              "icon": { "emoji": "🚶" },
+              "color": "brown_background"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [{ "type": "text", "text": { "content": "Duplicate the day toggle for Day 2, Day 3, etc." } }]
+      }
+    },
+    { "object": "block", "type": "divider", "divider": {} },
+    {
+      "object": "block",
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [{ "type": "text", "text": { "content": "📌 Fixed Bookings" } }]
+      }
+    },
+    {
+      "object": "block",
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [{ "type": "text", "text": { "content": "<YYYY-MM-DD HH:mm> - <Booking details>" } }]
+      }
+    },
+    { "object": "block", "type": "divider", "divider": {} },
+    {
+      "object": "block",
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [{ "type": "text", "text": { "content": "🌦️ Weather / Backup Rules" } }]
+      }
+    },
+    {
+      "object": "block",
+      "type": "toggle",
+      "toggle": {
+        "rich_text": [{ "type": "text", "text": { "content": "🌧️ If rain" } }],
+        "children": [
+          {
+            "object": "block",
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [{ "type": "text", "text": { "content": "<indoor swap by nearby area>" } }]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "type": "toggle",
+      "toggle": {
+        "rich_text": [{ "type": "text", "text": { "content": "😴 If low energy" } }],
+        "children": [
+          {
+            "object": "block",
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [{ "type": "text", "text": { "content": "<park + cafe + one key stop>" } }]
+            }
+          }
+        ]
+      }
+    },
+    { "object": "block", "type": "divider", "divider": {} },
+    {
+      "object": "block",
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [{ "type": "text", "text": { "content": "📝 Notes & Assumptions" } }]
+      }
+    },
+    {
+      "object": "block",
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [{ "type": "text", "text": { "content": "<Notes>" } }]
+      }
+    }
+  ]
+}
