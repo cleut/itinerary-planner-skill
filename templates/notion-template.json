@@ -27,7 +27,7 @@
       "object": "block",
       "type": "bulleted_list_item",
       "bulleted_list_item": {
-        "rich_text": [{ "type": "text", "text": { "content": "Dates: <YYYY-MM-DD to YYYY-MM-DD>" } }]
+        "rich_text": [{ "type": "text", "text": { "content": "Dates: <Apr 1 - Apr 6, 2026>" } }]
       }
     },
     {
@@ -94,14 +94,14 @@
       "object": "block",
       "type": "paragraph",
       "paragraph": {
-        "rich_text": [{ "type": "text", "text": { "content": "Place format: <place> - ⭐4.8 (321) - <Google Maps link>; if count missing use ⭐4.8." } }]
+        "rich_text": [{ "type": "text", "text": { "content": "Place format: <place> - ⭐4.8 (321) - Google Maps (clickable link text); if count missing use ⭐4.8; if rating is unavailable use ⭐N/A." } }]
       }
     },
     {
       "object": "block",
       "type": "toggle",
       "toggle": {
-        "rich_text": [{ "type": "text", "text": { "content": "Day 1 - <date> - <area focus>" } }],
+        "rich_text": [{ "type": "text", "text": { "content": "Day 1 - <Apr 1> - <area focus>" } }],
         "children": [
           {
             "object": "block",
@@ -114,51 +114,72 @@
           },
           {
             "object": "block",
-            "type": "bulleted_list_item",
-            "bulleted_list_item": {
-              "rich_text": [{ "type": "text", "text": { "content": "🌅 Morning: <anchor/place> - ⭐4.8 (321) - <Google Maps link>" } }]
+            "type": "paragraph",
+            "paragraph": {
+              "rich_text": [
+                { "type": "text", "text": { "content": "🌅 Morning: <anchor/place> - ⭐4.8 (321) - " } },
+                { "type": "text", "text": { "content": "Google Maps", "link": { "url": "https://maps.google.com" } } }
+              ]
             }
           },
           {
             "object": "block",
-            "type": "bulleted_list_item",
-            "bulleted_list_item": {
-              "rich_text": [{ "type": "text", "text": { "content": "☀️ Afternoon: <anchor/place> - ⭐4.8 (321) - <Google Maps link>" } }]
+            "type": "paragraph",
+            "paragraph": {
+              "rich_text": [
+                { "type": "text", "text": { "content": "☀️ Afternoon: <anchor/place> - ⭐4.8 (321) - " } },
+                { "type": "text", "text": { "content": "Google Maps", "link": { "url": "https://maps.google.com" } } }
+              ]
             }
           },
           {
             "object": "block",
-            "type": "bulleted_list_item",
-            "bulleted_list_item": {
-              "rich_text": [{ "type": "text", "text": { "content": "🌙 Evening: <anchor/place> - ⭐4.8 (321) - <Google Maps link>" } }]
+            "type": "paragraph",
+            "paragraph": {
+              "rich_text": [
+                { "type": "text", "text": { "content": "🌙 Evening: <anchor/place> - ⭐4.8 (321) - " } },
+                { "type": "text", "text": { "content": "Google Maps", "link": { "url": "https://maps.google.com" } } }
+              ]
             }
           },
           {
             "object": "block",
-            "type": "bulleted_list_item",
-            "bulleted_list_item": {
-              "rich_text": [{ "type": "text", "text": { "content": "🍽️ Lunch: <place> - ⭐4.8 (321) - <Google Maps link>" } }]
+            "type": "paragraph",
+            "paragraph": {
+              "rich_text": [
+                { "type": "text", "text": { "content": "🍽️ Lunch: <place> - ⭐4.8 (321) - " } },
+                { "type": "text", "text": { "content": "Google Maps", "link": { "url": "https://maps.google.com" } } }
+              ]
             }
           },
           {
             "object": "block",
-            "type": "bulleted_list_item",
-            "bulleted_list_item": {
-              "rich_text": [{ "type": "text", "text": { "content": "🍷 Dinner: <place> - ⭐4.8 (321) - <Google Maps link>" } }]
+            "type": "paragraph",
+            "paragraph": {
+              "rich_text": [
+                { "type": "text", "text": { "content": "🍷 Dinner: <place> - ⭐4.8 (321) - " } },
+                { "type": "text", "text": { "content": "Google Maps", "link": { "url": "https://maps.google.com" } } }
+              ]
             }
           },
           {
             "object": "block",
-            "type": "bulleted_list_item",
-            "bulleted_list_item": {
-              "rich_text": [{ "type": "text", "text": { "content": "☕ Cafe: <place> - ⭐4.8 (321) - <Google Maps link>" } }]
+            "type": "paragraph",
+            "paragraph": {
+              "rich_text": [
+                { "type": "text", "text": { "content": "☕ Cafe: <place> - ⭐4.8 (321) - " } },
+                { "type": "text", "text": { "content": "Google Maps", "link": { "url": "https://maps.google.com" } } }
+              ]
             }
           },
           {
             "object": "block",
-            "type": "bulleted_list_item",
-            "bulleted_list_item": {
-              "rich_text": [{ "type": "text", "text": { "content": "🔁 Backup swap: <alternative place> - ⭐4.8 (321) - <Google Maps link>" } }]
+            "type": "paragraph",
+            "paragraph": {
+              "rich_text": [
+                { "type": "text", "text": { "content": "🔁 Backup swap: <alternative place> - ⭐4.8 (321) - " } },
+                { "type": "text", "text": { "content": "Google Maps", "link": { "url": "https://maps.google.com" } } }
+              ]
             }
           },
           {

@@ -157,6 +157,10 @@ When the user asks for template-only output (or says they’ll edit content manu
 - Replace placeholders (e.g. `<Destination>`, `<date>`) before appending.
 - Keep formatting clean and scannable with light, category-based emoji (not decorative emoji spam).
 - Use collapsible day toggles and short callouts for intent/feasibility when supported by the template.
+- In day toggles, use paragraph lines for `Morning/Afternoon/Evening/Lunch/Dinner/Cafe/Backup` (not bulleted list items) to avoid the leading dot before emoji.
+- For each place line, render a clickable Notion rich-text link labeled exactly `Google Maps`.
+- Date format in Notion content: day labels as `Apr 1`, `Apr 2`, etc.; trip summary date range as `Apr 1 - Apr 6, 2026`.
+- Rating format per place: `⭐4.8 (99)`; if review count is missing use `⭐4.8`; if rating is unavailable use `⭐N/A`.
 - If the template needs edits, update the JSON file instead of duplicating format definitions in SKILL.md.
 
 #### Full content mode (when user asks for complete itinerary)
@@ -166,10 +170,12 @@ When the user asks for template-only output (or says they’ll edit content manu
   3. Booked/fixed items
   4. Weather/backup alternatives
   5. Notes and assumptions
-- Include Google Maps links for every grounded place (activity anchors, restaurants/cafés, and named backup options).
+- Include Google Maps links for every grounded place (activity anchors, restaurants/cafés, and named backup options) using clickable link text labeled `Google Maps`.
 - Prefer direct place links when available.
 - Fallback to query links if direct links are not available.
-- For each grounded place, append rating in: `⭐4.8 (99)` (or `⭐4.8` if count missing).
+- For each grounded place, append rating in: `⭐4.8 (99)`; if count is missing use `⭐4.8`; if rating is unavailable use `⭐N/A`.
+- In day toggles, write activity/food lines as paragraph blocks (not bulleted list items) to avoid the leading Notion bullet dot before emoji.
+- Date format in Notion content: day labels as `Apr 1`, `Apr 2`, etc.; trip summary date range as `Apr 1 - Apr 6, 2026`.
 
 - Prefer append/update over destructive rewrites.
 - Only publish after explicit user confirmation.
