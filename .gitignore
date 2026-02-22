@@ -1,0 +1,19 @@
+# Secrets and local env
+.env
+.env.*
+
+# Private keys and cert bundles
+*.pem
+*.key
+*.p12
+*.pfx
+
+# OS/editor noise
+.DS_Store
+.vscode/
+.idea/
+
+# Local caches and logs
+__pycache__/
+*.pyc
+*.log
